@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Java Tutorials</title>
+    <!-- Bootstrap CSS link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Java Tutorials</a>
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../index.html"> <img src="../../assets/images/home.png"
+                                        alt="home"> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../java/java.html/#strings"> <img src="../../assets/images/string.png"
+                                        alt="java"> String</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./java.html"> <img src="../../assets/images/java.png"
+                                        alt="java"> Java</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../java/java.html/#oops"> <img src="../../assets/images/oops.png"
+                                        alt="java"> OOPS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../java/java.html/#exception-handling"> <img src="../../assets/images/exception.png"
+                                        alt="java"> Exception</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../java/java.html/#multithreading"> <img
+                                        src="../../assets/images/multithreading.png" alt="java"> Multithreading</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../java/java.html/#collections"> <img src="../../assets/images/collection.png"
+                                        alt="java"> Collections</a>
+                            </li>
+                           
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar" style="margin-top: 100px;">
+
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#history">History of Java</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#datatypes">Datatypes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#strings">Strings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#oops">Object-Oriented Programming</a>
+                        </li>
+                        
+                      
+                        <li class="nav-item">
+                            <a class="nav-link" href="#collections">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#exception-handling">Exception Handling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#multithreading">Multithreading</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4" style="margin-top: 100px;">
+                <section id="history">
+                    
+                            <h1 class="mt-5">History Of Java</h1>
+                            <p>
+                                <b>Java</b> is a programming language and a platform. Java is a high-level, robust,
+                                object-oriented, and secure programming language.
+                            </p>
+                            <p>
+                                Java was developed by Sun Microsystems (now a subsidiary of Oracle) in 1995. James
+                                Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was
+                                already a registered company, James Gosling and his team changed the name from Oak to
+                                Java.
+                            </p>
+                            <p>
+                                <b>Platform:</b> Any hardware or software environment in which a program runs is known
+                                as a platform. Since Java has a runtime environment (JRE) and API, it is called a
+                                platform.
+                            </p>
+                            <img src="../../assets/images/javahello.png" alt="Java Programming Image"
+                            class="img-fluid" style="height: 500px; width: 900px;">
+                            <h3>Key Milestones</h3>
+                            <ul>
+                                <li>1991: The Green Project begins, which later becomes Java.</li>
+                                <li>1995: Java 1.0 is released, making Java accessible to developers.</li>
+                                <li>2004: Java 5 introduces generics and enhanced for-each loop, revolutionizing
+                                    Java's type system.</li>
+                                <li>2011: Java 7 adds features like try-with-resources and the diamond operator,
+                                    simplifying resource management and code readability.</li>
+                                <li>2014: Java 8 introduces lambdas, streams, and the java.time package, enabling
+                                    functional programming paradigms and modern date-time handling.</li>
+                            </ul>
+                            <p>
+                                These milestones have contributed to Java's enduring popularity and its use in various
+                                domains, including web development, mobile app development, and enterprise applications.
+                            </p>
+                            <h3>Java Platforms / Editions</h3>
+                            <p>
+                                There are 4 platforms or editions of Java:
+                                <br>
+                                <b>1) Java SE (Java Standard Edition):</b> It is a Java programming platform. It
+                                includes Java programming APIs such as java.lang, java.io, java.net, java.util,
+                                java.sql, java.math, etc. It includes core topics like OOPs, String, Regex, Exception,
+                                Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection,
+                                Collection, etc.
+                                <br>
+                                <b>2) Java EE (Java Enterprise Edition):</b> It is an enterprise platform mainly used
+                                to develop web and enterprise applications. It is built on top of the Java SE platform.
+                                It includes topics like Servlet, JSP, Web Services, EJB, JPA, etc.
+                                <br>
+                                <b>3) Java ME (Java Micro Edition):</b> It is a micro platform dedicated to mobile
+                                applications.
+                                <br>
+                                <b>4) JavaFX:</b> It is used to develop rich internet applications and uses a
+                                lightweight user interface API.
+                            </p>
+              
+                       
+                          
+                      
+              
+                </section>
+                <section id="datatypes">
+                 
+                    <h2>Data Types in Java</h2>
+                    <p>
+                        Data types in Java are used to define the type of data that a variable can hold. Java is a statically
+                        typed language, which means that all variables must have a specific data type at the time of declaration.
+                        Java provides a rich set of data types to handle various kinds of data, from simple integers to complex
+                        objects. Data types in Java can be categorized into two main groups: primitive data types and reference
+                        data types.
+                    </p>
+                    <h3>Primitive Data Types</h3>
+                    <p>
+                        Primitive data types represent simple values, and they are the building blocks of data manipulation in
+                        Java. There are eight primitive data types in Java:
+                    </p>
+                    <ul>
+                        <li><b>byte:</b> A 1-byte integer data type that can store values from -128 to 127.</li>
+                        <li><b>short:</b> A 2-byte integer data type capable of holding values in the range of -32,768 to 32,767.</li>
+                        <li><b>int:</b> A 4-byte integer data type used to store whole numbers within the range of approximately
+                            -2 billion to 2 billion.</li>
+                        <li><b>long:</b> An 8-byte integer data type for very large whole numbers, ranging from
+                            -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.</li>
+                        <li><b>float:</b> A 4-byte floating-point data type for decimal numbers with single precision. It can
+                            represent numbers with up to 7 significant digits.</li>
+                        <li><b>double:</b> An 8-byte floating-point data type for decimal numbers with double precision. It can
+                            represent numbers with up to 15 significant digits.</li>
+                        <li><b>char:</b> A 2-byte character data type used to store a single character or a Unicode character.</li>
+                        <li><b>boolean:</b> A data type with only two possible values, true or false, used for boolean logic.</li>
+                    </ul>
+                    <p>
+                        These primitive data types are essential for performing arithmetic operations, storing values, and
+                        making decisions in Java programs. Choosing the right data type is crucial for efficient memory usage
+                        and accurate representation of data.
+                    </p>
+                
+                    <h3>Reference Data Types</h3>
+                    <p>
+                        Reference data types, also known as non-primitive data types, do not store actual values but rather
+                        references (addresses) to objects in memory. Java provides several reference data types, and you can also
+                        create your own custom reference data types using classes and interfaces. Some commonly used reference
+                        data types include:
+                    </p>
+                    <ul>
+                        <li><b>Classes:</b> Classes define the blueprint for creating objects. They encapsulate data and behavior
+                            into a single unit.</li>
+                        <li><b>Interfaces:</b> Interfaces provide a contract for classes to implement. They define a set of
+                            methods that must be implemented by classes that implement the interface.</li>
+                        <li><b>Arrays:</b> Arrays are collections of elements of the same data type. They can hold multiple values
+                            of the same type in a single variable.</li>
+                        <li><b>Enumerations (Enums):</b> Enums are a special data type that defines a set of constant values,
+                            allowing you to create a variable that can only be assigned one of those values.</li>
+                    </ul>
+                    <p>
+                        Reference data types are used to create complex data structures and model real-world entities in Java
+                        programs. They enable object-oriented programming and are fundamental to building applications with
+                        extensive functionality.
+                    </p>
+                   
+                        <img src="../../assets/images/java-data-types.png" alt="java-data-types"
+                            class="img-fluid">
+                   
+              
+                    
+                </section>
+                <section id="strings">
+                    <h1 class="mt-5">Java Strings</h1>
+                    <p>
+                        In Java, a string is essentially an object that represents a sequence of character values. An array of characters works the same way as a Java string. For example:
+                    </p>
+                    <pre>
+                        <code>
+            char[] ch = {'j', 'a', 'v', 'a', 't', 'p', 'o', 'i', 'n', 't'};
+            String s = new String(ch);
+                        </code>
+                    </pre>
+                    <p>
+                        This is the same as:
+                    </p>
+                    <pre>
+                        <code>
+            String s = "javatpoint";
+                        </code>
+                    </pre>
+                    <p>
+                        The Java String class provides numerous methods to perform operations on strings, such as <code>compare()</code>, <code>concat()</code>, <code>equals()</code>, <code>split()</code>, <code>length()</code>, <code>replace()</code>, <code>compareTo()</code>, <code>intern()</code>, <code>substring()</code>, and many more.
+                    </p>
+                    <p>
+                        The <code>java.lang.String</code> class implements the <code>Serializable</code>, <code>Comparable</code>, and <code>CharSequence</code> interfaces.
+                    </p>
+                    <h2>Creating String Objects</h2>
+                    <p>There are two ways to create String objects:</p>
+                    <ol>
+                        <li><strong>String Literal:</strong> Java String literal is created by using double quotes. For example:</li>
+                    </ol>
+                    <pre>
+                        <code>
+            String s = "welcome";
+                        </code>
+                    </pre>
+                    <p>
+                        Each time you create a string literal, the JVM checks the "string constant pool" first. If the string already exists in the pool, a reference to the pooled instance is returned. If the string doesn't exist in the pool, a new string instance is created and placed in the pool.
+                    </p>
+                    <p>
+                        <strong>By string literal, Java saves memory because no new objects are created if the string already exists in the string constant pool.</strong>
+                    </p>
+                    <ol start="2">
+                        <li><strong>By new Keyword:</strong> You can also create a String object using the <code>new</code> keyword:</li>
+                    </ol>
+                    <pre>
+                        <code>
+            String s = new String("Welcome"); // Creates two objects and one reference variable
+                        </code>
+                    </pre>
+                    <p>
+                        In this case, the JVM creates a new string object in normal (non-pool) heap memory, and the literal "Welcome" will be placed in the string constant pool.
+                    </p>
+                    <h2>Java String Example</h2>
+                    <p>Here's an example of creating and using string objects:</p>
+                    <pre>
+                        <code>
+            public class StringExample {    
+                public static void main(String[] args) {    
+                    String s1 = "java"; // Creating string by Java string literal    
+                    char[] ch = {'s', 't', 'r', 'i', 'n', 'g', 's'};    
+                    String s2 = new String(ch); // Converting char array to string    
+                    String s3 = new String("example"); // Creating Java string by new keyword    
+                    System.out.println(s1);    
+                    System.out.println(s2);    
+                    System.out.println(s3);    
+                }
+            }
+                        </code>
+                    </pre>
+                    <p>This code converts a char array into string objects and displays them using <code>System.out.println()</code>.</p>
+
+
+                    <section id="oops">
+                        <h1 class="mt-5">Object-Oriented Programming (OOPs) in Java</h1>
+                        <p>
+                            Object-Oriented Programming (OOP) is a fundamental paradigm in software development that is widely used in Java.
+                            It revolves around the concept of "objects" and "classes" to structure code and represent real-world entities
+                            seamlessly. OOP promotes modularity, reusability, and easier code maintenance.
+                        </p>
+                    
+                        <h2>Key Concepts of OOPs:</h2>
+                    
+                        <h3>1. Object:</h3>
+                        <p>
+                            An object is a fundamental building block of OOP. It represents a real-world entity or concept and encapsulates
+                            both data (attributes) and behaviors (methods). For example, a "Car" object can have attributes like "color,"
+                            "model," and behaviors like "start" and "stop."
+                        </p>
+                    
+                        <h3>2. Class:</h3>
+                        <p>
+                            A class is a blueprint or template for creating objects. It defines the structure and behavior that its objects
+                            will possess. Think of it as a recipe for creating objects. For instance, a "Car" class defines what a car is and
+                            what it can do.
+                        </p>
+                    
+                        <h3>3. Inheritance:</h3>
+                        <p>
+                            Inheritance is a mechanism that allows one class (the child or subclass) to inherit the properties and behaviors
+                            of another class (the parent or superclass). It promotes code reusability and represents an "is-a" relationship.
+                            For instance, a "SportsCar" class can inherit from the "Car" class.
+                        </p>
+                    
+                        <h3>4. Polymorphism:</h3>
+                        <p>
+                            Polymorphism means "many forms." It enables objects of different classes to be treated as objects of a common
+                            superclass. It's achieved through method overriding and method overloading, allowing flexibility in method
+                            implementation. For example, both a "Car" and a "SportsCar" can have a "start" method, but they behave
+                            differently.
+                        </p>
+                    
+                        <h3>5. Abstraction:</h3>
+                        <p>
+                            Abstraction involves hiding complex implementation details and showing only essential features of an object. It
+                            helps manage code complexity and provides a clear separation between what an object does and how it does it.
+                            Abstract classes and interfaces are used for abstraction.
+                        </p>
+                    
+                        <h3>6. Encapsulation:</h3>
+                        <p>
+                            Encapsulation is the bundling of data (attributes) and methods (behaviors) that operate on the data into a single
+                            unit known as a class. Access to the internal state of an object is controlled through access modifiers like
+                            private, public, and protected.
+                        </p>
+                    
+                        <h3>7. Association, Aggregation, and Composition:</h3>
+                        <p>
+                            These concepts define how objects are related to each other. Association represents a basic relationship between
+                            objects. Aggregation is a stronger association, where one object contains other objects but has independent
+                            existence. Composition is a more restrictive form of aggregation, where the contained objects have no meaningful
+                            existence outside the container object.
+                        </p>
+                    
+                        <h2>Benefits of OOPs in Java:</h2>
+                        <p>
+                            Object-Oriented Programming offers several advantages in Java, including:
+                        </p>
+                        <ul>
+                            <li><b>Modularity:</b> Code is organized into reusable and maintainable modules (classes).</li>
+                            <li><b>Reusability:</b> Classes and objects can be reused in different parts of an application or in other
+                                applications.</li>
+                            <li><b>Flexibility:</b> OOP allows for easy modification and extension of code as requirements change.</li>
+                            <li><b>Abstraction:</b> Complex systems can be simplified by abstracting away unnecessary details.</li>
+                            <li><b>Encapsulation:</b> Data is protected from unauthorized access, enhancing data security.</li>
+                            <li><b>Polymorphism:</b> Multiple classes can be treated as instances of a common superclass, improving code
+                                flexibility.</li>
+                            <li><b>Inheritance:</b> Code reuse is facilitated through the inheritance mechanism.</li>
+                        </ul>
+                    
+                        <h2>Popular Object-Oriented Languages:</h2>
+                        <p>
+                            While Java is a prominent object-oriented language, several other languages follow the OOP paradigm. Some of
+                            these languages include C++, C#, Python, Ruby, and PHP, each with its own unique features and use cases.
+                        </p>
+                        <h3>Real Life Example</h3>
+                        <p>
+                            Certainly! Let's illustrate the Object-Oriented Programming (OOPs) concepts in Java with a real-world example of a basic "Vehicle" hierarchy:
+                        </p>
+                        <pre>
+                            <code>
+                    // Base class - Vehicle
+                    class Vehicle {
+                        private String brand;
+                        private int year;
+                    
+                        // Constructor
+                        public Vehicle(String brand, int year) {
+                            this.brand = brand;
+                            this.year = year;
+                        }
+                    
+                        // Method to start the vehicle
+                        public void start() {
+                            System.out.println("Starting the " + year + " " + brand + "...");
+                        }
+                    
+                        // Getter for brand
+                        public String getBrand() {
+                            return brand;
+                        }
+                    
+                        // Getter for year
+                        public int getYear() {
+                            return year;
+                        }
+                    }
+                    
+                    // Derived class - Car (inherits from Vehicle)
+                    class Car extends Vehicle {
+                        private int numberOfDoors;
+                    
+                        // Constructor
+                        public Car(String brand, int year, int numberOfDoors) {
+                            super(brand, year); // Call the superclass constructor
+                            this.numberOfDoors = numberOfDoors;
+                        }
+                    
+                        // Method to display car details
+                        public void displayCarDetails() {
+                            System.out.println("Car Details:");
+                            System.out.println("Brand: " + getBrand());
+                            System.out.println("Year: " + getYear());
+                            System.out.println("Number of Doors: " + numberOfDoors);
+                        }
+                    }
+                    
+                    // Derived class - Motorcycle (inherits from Vehicle)
+                    class Motorcycle extends Vehicle {
+                        // Constructor
+                        public Motorcycle(String brand, int year) {
+                            super(brand, year); // Call the superclass constructor
+                        }
+                    
+                        // Method to perform a wheelie (unique to motorcycles)
+                        public void performWheelie() {
+                            System.out.println("Performing a wheelie with the " + getBrand() + " motorcycle!");
+                        }
+                    }
+                    
+                    public class Main {
+                        public static void main(String[] args) {
+                            // Create a car object
+                            Car myCar = new Car("Toyota", 2022, 4);
+                            myCar.start(); // Call the start method from the Vehicle class
+                            myCar.displayCarDetails(); // Call the displayCarDetails method from the Car class
+                    
+                            // Create a motorcycle object
+                            Motorcycle myMotorcycle = new Motorcycle("Harley-Davidson", 2021);
+                            myMotorcycle.start(); // Call the start method from the Vehicle class
+                            myMotorcycle.performWheelie(); // Call the performWheelie method from the Motorcycle class
+                        }
+                    }
+                    
+                            </code>
+                        </pre>
+                        <p>
+                            In this example:
+                            <ul>
+                                <li>
+                                    Vehicle is the base class that represents common attributes and behaviors of all vehicles, such as the brand and year of manufacture. It also has a start method to start the vehicle.
+                                </li>
+                                <li>
+                                    Car is a derived class that inherits from Vehicle. It adds a unique attribute, numberOfDoors, and a method displayCarDetails to display car-specific information.
+                                </li>
+                                <li>
+                                    Motorcycle is another derived class that also inherits from Vehicle. It has a unique method, performWheelie, which is specific to motorcycles.
+                                </li>
+                                <li>
+                                    
+                            In the main method, we create instances of both Car and Motorcycle and demonstrate how OOPs concepts like inheritance, encapsulation, and polymorphism work in Java. The code is organized, reusable, and follows OOP principles.
+                                </li>
+                            </ul>
+                        </p>
+                    </section>
+                    
+                    <section id="collections">
+                        <h2>Collections in Java</h2>
+                        <p>
+                            Collections are an essential part of Java programming, providing dynamic data structures to
+                            store and manipulate data. Java's collections framework includes interfaces and classes for
+                            various data structures like lists, sets, maps, and queues.
+                        </p>
+                        <h3>Common Collection Interfaces</h3>
+                        <ul>
+                            <li><b>List:</b> Ordered collection with duplicates allowed (e.g., ArrayList). Lists provide
+                                flexibility for tasks like maintaining order and supporting random access.</li>
+                            <li><b>Set:</b> Unordered collection with no duplicates (e.g., HashSet). Sets are useful for
+                                scenarios where uniqueness is crucial.</li>
+                            <li><b>Map:</b> Key-value pairs (e.g., HashMap). Maps allow efficient data retrieval based on
+                                keys.</li>
+                            <li><b>Queue:</b> A collection to hold elements for processing (e.g., PriorityQueue). Queues
+                                facilitate tasks like managing tasks in a priority-based manner.</li>
+                        </ul>
+                        <p>
+                            Understanding these collection interfaces and their implementations is vital for effective
+                            Java development, as they serve as building blocks for numerous algorithms and data
+                            manipulation tasks.
+                        </p>
+                    
+                        <h3>Code Examples</h3>
+                        <p>
+                            Let's explore a few code examples to see how Java collections are used:
+                        </p>
+                    
+                        <h4>Using ArrayList (List Interface)</h4>
+                        <pre><code>
+                    import java.util.ArrayList;
+                    import java.util.List;
+                    
+                    public class ArrayListExample {
+                        public static void main(String[] args) {
+                            // Create an ArrayList of strings
+                            List<String> names = new ArrayList<>();
+                    
+                            // Add elements to the list
+                            names.add("Alice");
+                            names.add("Bob");
+                            names.add("Charlie");
+                    
+                            // Access elements by index
+                            String firstPerson = names.get(0);
+                            System.out.println("First person: " + firstPerson);
+                    
+                            // Iterate through the list
+                            for (String name : names) {
+                                System.out.println("Name: " + name);
+                            }
+                        }
+                    }
+                        </code></pre>
+                    
+                        <h4>Using HashSet (Set Interface)</h4>
+                        <pre><code>
+                    import java.util.HashSet;
+                    import java.util.Set;
+                    
+                    public class HashSetExample {
+                        public static void main(String[] args) {
+                            // Create a HashSet of integers
+                            Set<Integer> numbers = new HashSet<>();
+                    
+                            // Add elements to the set
+                            numbers.add(1);
+                            numbers.add(2);
+                            numbers.add(3);
+                    
+                            // Add a duplicate element (ignored)
+                            numbers.add(1);
+                    
+                            // Iterate through the set
+                            for (int number : numbers) {
+                                System.out.println("Number: " + number);
+                            }
+                        }
+                    }
+                        </code></pre>
+                    
+                        <h3>Java Collections Framework Image</h3>
+                        <img src="../../assets/images/collectionframework.png" alt="Java Collections Framework">
+                        <h3>Map Interface</h3>
+<p>
+    The <b>Map</b> interface in Java is a part of the collections framework and represents a collection of key-value
+    pairs, where each key is associated with a unique value. Maps are used for data storage, retrieval, and
+    manipulation based on keys. Unlike lists and sets, maps store elements as pairs, consisting of a key and its
+    corresponding value.
+</p>
+
+<p>
+    Key characteristics of the <b>Map</b> interface:
+</p>
+<ul>
+    <li>Stores elements as key-value pairs.</li>
+    <li>Keys are unique within a map; each key maps to exactly one value.</li>
+    <li>Allows fast retrieval of values based on keys.</li>
+</ul>
+
+<p>
+    Commonly used implementations of the <b>Map</b> interface in Java include <b>HashMap</b>, <b>LinkedHashMap</b>,
+    <b>TreeMap</b>, and <b>Hashtable</b>.
+</p>
+
+<h4>Code Example Using HashMap</h4>
+<pre><code>
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapExample {
+    public static void main(String[] args) {
+        // Create a HashMap to store student grades
+        Map<String, Integer> studentGrades = new HashMap<>();
+
+        // Add key-value pairs to the map
+        studentGrades.put("Alice", 95);
+        studentGrades.put("Bob", 88);
+        studentGrades.put("Charlie", 92);
+
+        // Access and print grades using keys
+        int aliceGrade = studentGrades.get("Alice");
+        System.out.println("Alice's Grade: " + aliceGrade);
+
+        // Iterate through the map to print all grades
+        for (Map.Entry<String, Integer> entry : studentGrades.entrySet()) {
+            String studentName = entry.getKey();
+            int grade = entry.getValue();
+            System.out.println(studentName + "'s Grade: " + grade);
+        }
+    }
+}
+</code></pre>
+
+<p>
+    In this example, we use a <b>HashMap</b> to store student grades as key-value pairs. The keys are student names,
+    and the values are their corresponding grades. We demonstrate how to add entries to the map, retrieve values by
+    keys, and iterate through the map to access all entries.
+</p>
+
+<p>
+    The <b>Map</b> interface is widely used in various applications, including databases, caching, and organizing data
+    with unique identifiers.
+</p>
+                    </section>
+                    <section id="exception-handling">
+                        <div class="content">
+
+                   
+                        <h2>Exception Handling in Java</h2>
+                      
+                    
+                        <p>
+                            Exception handling in Java is a powerful mechanism to manage and deal with runtime errors, ensuring the normal flow
+                            of an application can be maintained. This critical feature enables developers to handle various types of
+                            exceptions gracefully.
+                        </p>
+                    
+                        <h3>What is Exception in Java?</h3>
+                        <p>
+                            In Java, an exception is an event that disrupts the normal flow of a program. It is represented as an object
+                            thrown at runtime when an exceptional condition occurs.
+                        </p>
+                    
+                        <h3>What is Exception Handling?</h3>
+                        <p>
+                            Exception handling is a mechanism to manage and respond to runtime errors such as ClassNotFoundException, IOException,
+                            SQLException, RemoteException, and more. It allows developers to anticipate potential issues and implement strategies
+                            for handling them gracefully.
+                        </p>
+                    
+                        <h3>Advantages of Exception Handling</h3>
+                        <p>
+                            Exception handling offers several advantages:
+                        </p>
+                        <ul>
+                            <li>It maintains the normal flow of the application even in the presence of exceptions.</li>
+                            <li>Without exception handling, unhandled exceptions can lead to program termination.</li>
+                            <li>It provides a structured way to deal with expected exceptions.</li>
+                        </ul>
+                    
+                        <h3>Hierarchy of Java Exception Classes</h3>
+                        <p>
+                            The Java exception hierarchy consists of two main classes: <code>Exception</code> and <code>Error</code>. These are
+                            inherited from the root class <code>Throwable</code>. Exceptions are further categorized into checked and unchecked
+                            exceptions.
+                        </p>
+                    
+                        <h3>Types of Java Exceptions</h3>
+                        <p>
+                            Java exceptions are classified into three main types:
+                        </p>
+                        <ul>
+                            <li><b>Checked Exception:</b> These are exceptions that are checked at compile-time and must be explicitly handled.</li>
+                            <li><b>Unchecked Exception:</b> Also known as runtime exceptions, these exceptions are not checked at compile-time.</li>
+                            <li><b>Error:</b> Errors are irrecoverable and typically indicate severe issues like memory exhaustion.</li>
+                        </ul>
+                    
+                        <h3>Java Exception Keywords</h3>
+                        <p>
+                            Java provides five keywords for exception handling:
+                        </p>
+                        <table>
+                            <tr>
+                                <th>Keyword</th>
+                                <th>Description</th>
+                            </tr>
+                            <tr>
+                                <td><code>try</code></td>
+                                <td>Specifies a block of code where an exception might occur.</td>
+                            </tr>
+                            <tr>
+                                <td><code>catch</code></td>
+                                <td>Handles exceptions and must follow a <code>try</code> block.</td>
+                            </tr>
+                            <tr>
+                                <td><code>finally</code></td>
+                                <td>Executes code whether an exception is handled or not, and follows a <code>try</code> or <code>catch</code> block.</td>
+                            </tr>
+                            <tr>
+                                <td><code>throw</code></td>
+                                <td>Used to throw custom exceptions.</td>
+                            </tr>
+                            <tr>
+                                <td><code>throws</code></td>
+                                <td>Declares exceptions that a method may throw and follows the method's signature.</td>
+                            </tr>
+                        </table>
+                    
+                        <h3>Java Exception Handling Example</h3>
+                        <p>
+                            Here's an example of exception handling in Java:
+                        </p>
+                        <pre><code>
+                    public class JavaExceptionExample {
+                        public static void main(String[] args) {
+                            try {
+                                int data = 100 / 0; // This line will throw an ArithmeticException
+                            } catch (ArithmeticException e) {
+                                System.out.println(e); // Handle the exception
+                            }
+                            System.out.println("Rest of the code...");
+                        }
+                    }
+                        </code></pre>
+                    
+                        <p>
+                            In this example, an <code>ArithmeticException</code> is thrown when attempting to divide by zero. The exception is
+                            caught and handled within the <code>catch</code> block.
+                        </p>
+                    
+                        <h3>Common Scenarios of Java Exceptions</h3>
+                        <p>
+                            Here are some common scenarios where unchecked exceptions may occur:
+                        </p>
+                        <ol>
+                            <li>Division by zero leading to an <code>ArithmeticException</code>.</li>
+                            <li>Accessing methods or properties on a null object, resulting in a <code>NullPointerException</code>.</li>
+                            <li>Attempting to parse a non-numeric string, causing a <code>NumberFormatException</code>.</li>
+                            <li>Accessing an array element out of its bounds, triggering an <code>ArrayIndexOutOfBoundsException</code>.</li>
+                        </ol>
+                    
+                        <p>
+                            Exception handling is a crucial aspect of Java programming, allowing developers to build robust and reliable
+                            applications. Understanding and effectively implementing exception handling strategies is essential for writing
+                            production-ready Java code.
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img src="../../assets/images/exceptiohandling.png" alt="Java Exception Handling" style="height: 390px; width: 500px;" />
+                    </div>
+                    </section>
+                    
+                    
+                    <section id="multithreading">
+                        <div class="content">
+                            <h2>Multithreading in Java</h2>
+                            <p>
+                                Multithreading is a fundamental concept in Java that enables the execution of multiple threads or
+                                lightweight sub-processes concurrently. Threads allow a program to perform multiple tasks independently,
+                                making the most efficient use of system resources and enabling better responsiveness in applications.
+                            </p>
+                            <h3>Advantages of Java Multithreading</h3>
+                            <p>
+                                Multithreading provides several advantages in Java programming:
+                            </p>
+                            <ul>
+                                <li><b>Concurrent Execution:</b> Java threads run independently, allowing for concurrent execution of
+                                    tasks within a single program. This is particularly beneficial in applications where tasks need to be
+                                    performed simultaneously.</li>
+                                <li><b>Resource Efficiency:</b> Unlike processes, threads within the same process share the same memory
+                                    space, reducing the overhead of creating separate memory areas for each task. This leads to better
+                                    memory utilization and efficiency.</li>
+                                <li><b>Responsiveness:</b> Multithreading enhances the responsiveness of applications. For example, in a
+                                    graphical user interface (GUI) application, one thread can handle user input while another thread
+                                    processes data or performs background tasks, ensuring that the application remains responsive to user
+                                    interactions.</li>
+                                <li><b>Error Isolation:</b> Threads in Java are independent, meaning that an exception or error occurring
+                                    in one thread does not impact the execution of other threads. This allows for more robust and
+                                    fault-tolerant applications.</li>
+                            </ul>
+                            <h3>Java Thread Class</h3>
+                            <p>
+                                To work with multithreading in Java, the <code>Thread</code> class is provided. The <code>Thread</code>
+                                class offers constructors and methods for creating and managing threads. Threads in Java extend the
+                                <code>Thread</code> class or implement the <code>Runnable</code> interface.
+                            </p>
+                            <p>
+                                Some commonly used methods of the <code>Thread</code> class include <code>start()</code>,
+                                <code>run()</code>, <code>sleep()</code>, <code>join()</code>, and <code>setName()</code>, among others.
+                            </p>
+                           
+                            <p>
+                                Here's a simple example of creating and starting a thread in Java:
+                            </p>
+                            <pre><code class="java">
+                    class MyThread extends Thread {
+                        public void run() {
+                            for (int i = 1; i <= 5; i++) {
+                                System.out.println("Thread: " + i);
+                            }
+                        }
+                    }
+                    
+                    public class Main {
+                        public static void main(String[] args) {
+                            MyThread thread1 = new MyThread();
+                            MyThread thread2 = new MyThread();
+                    
+                            thread1.start();
+                            thread2.start();
+                        }
+                    }
+                                </code></pre>
+                            <p>
+                                In this example, we've created a simple custom thread by extending the <code>Thread</code> class. The
+                                <code>run()</code> method defines the task the thread will perform. We then create two instances of this
+                                thread and start them using the <code>start()</code> method.
+                            </p>
+                       
+                      
+                    </section>
+                    
+            </main>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Continually reintermediate distributed processes through standardized.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>Email: info@example.com</li>
+                        <li>Phone: +1 234 567 890</li>
+                        <li>Address: 123 Main Street, City</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="go-to-top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+
+    <!-- Bootstrap JS scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('.header').addClass('header-scroll');
+                    // Show the "Go to Top" button when scrolling down
+                    $('.go-to-top').css('visibility', 'visible').css('opacity', '1');
+                } else {
+                    $('.header').removeClass('header-scroll');
+                    // Hide the "Go to Top" button when at the top of the page
+                    $('.go-to-top').css('visibility', 'hidden').css('opacity', '0');
+                }
+            });
+
+            // Smooth scroll for navbar links
+            $('a.nav-link').on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+
+                    var hash = this.hash;
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
